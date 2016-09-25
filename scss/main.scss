@@ -1,0 +1,393 @@
+@import "./imports/_normalize.scss";
+
+*{ box-sizing: border-box }
+
+body {
+  font-family: "Source Sans Pro";
+}
+
+p {
+  font-size: 18px;
+}
+img {
+   width: 100%;
+   display: block;
+}
+
+#app-container{
+   max-width: 100%;
+}
+.search-container {
+  position: relative;
+  background: url("../images/roomies-eating-together-bg.jpg") center center no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin: 0;
+
+}
+.main-header-text {
+  h1 {
+    margin-top: 150px;
+    font-size: 35px;
+    color: white;
+  }
+  h3 {
+    color: white;
+  }
+
+}
+.input-container {
+  // width: 80%;
+  height: 50px;
+  margin: 20px 50px;
+  input {
+    height: 50px;
+    font-size: 1.2em;
+    padding-left: 30px;
+  }
+}
+.three-bars {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: 20;
+  right: 20;
+}
+
+.roomme-logo {
+  position: absolute;
+  height: 30px;
+  width: 40px;
+  top: 10;
+  left: 20;
+  img {
+    height: 60px;
+    width: 80px;
+
+  }
+}
+.mag-glass {
+  font-size: 30px;
+  right: 5;
+  padding-bottom: 5px;
+  color: white;
+}
+.mag-glass-container {
+  border: 5px 10px;
+  padding: 6px 40px;
+  background: #7AC0CE;
+}
+
+
+.room-for-rent {
+  background-color: #7AC0CE;
+  height: 350px;
+  margin: 0;
+}
+.room-rent-container {
+  text-align: center;
+  h2 {
+    color: white;
+    margin-top: 30px;
+  }
+  p {
+    color: white;
+    padding: 4px 20px;
+  }
+}
+.post-button {
+  margin-top: 30px;
+  width: 210px;
+  background-color: black;
+}
+.finder-text {
+  text-align: center;
+  h1 {
+    color: #7AC0CE;
+    padding-top: 30px;
+    font-size: 40px;
+  }
+  p {
+    padding: 0 8%;
+    margin-bottom: 40px;
+  }
+}
+.how-works-container {
+  img {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+  }
+}
+.text-box {
+  text-align: center;
+  // margin-bottom: 50px;
+  h1 {
+    font-weight: bold;
+  }
+  p {
+    padding: 2px 40px;
+    margin-bottom: 50px;
+  }
+  img {
+    border-top: 30px;
+  }
+}
+.match-smarter {
+  border-bottom: 1px solid lightgrey;
+}
+
+.find-out-how-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.find-out-how {
+
+  a{
+    color: dodgerblue;
+    font-size: 20px;
+  }
+}
+.find-out-how a:hover {
+  color: chartreuse;
+  text-decoration:  none;
+  font-size: 22px;
+  cursor: pointer;
+}
+.recommend-me {
+  position: relative;
+  background: url("../images/happy-roomies-bg.jpg") center center no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin-bottom: 0;
+  h1 {
+    color: white;
+    margin-top: 50px;
+    font-size: 2em;
+  }
+  h4 {
+    color: white;
+  }
+  h3 {
+    color: white;
+    padding: 0 20px;
+  }
+}
+
+
+// begin social icons
+.icon-box {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background: #67C3D0;
+  display: inline-block;
+  margin: 5px;
+}
+.face-icon,
+.google-icon,
+.twitter-icon {
+  font-size: 20px;
+  color: white;
+  padding-top: 8px;
+  vertical-align: top;
+}
+.twitter-icon {
+  margin-top: 15px;
+}
+.recommend-me-icons p {
+  color: white;
+  font-size: 2em;
+  padding-top: 20px;
+}
+
+
+.form-input {
+  position: absolute;
+  top: 50%
+}
+.email-button {
+  position: relative;
+  margin-right: 20px;
+  width: 90px;
+  background: #35414E;
+  color: white;
+  .airplane-icon {
+    position: absolute;
+    font-size: 30px;
+    top: 8;
+    left: 30;
+  }
+}
+.email-button:hover {
+  cursor: pointer;
+}
+.airplane-icon:hover {
+  cursor: pointer;
+  color: chartreuse;
+}
+// .airplane-icon {
+//   position: absolute;
+// }
+.roomdotcom-input {
+  position: absolute;
+  width: 70%;
+  bottom: 60px;
+  left: 15%;
+  height: 50px;
+  > input {
+    padding-left: 20px;
+    font-size: 1.2em;
+    height: 50px;
+  }
+}
+
+
+
+.success-story-header {
+  text-align: center;
+  border-bottom: white;
+  border-top: 7px dotted #CFD8DD;
+	box-shadow: inset 0 3px 0 0 #CFD8DD, 0 -3px 0 0 #CFD8DD;
+  margin-top: 2px;
+  h1 {
+    color: #7AC0CE;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 100px;
+  }
+  p {
+    margin-bottom: 10px;
+    font-weight: 100;
+  }
+}
+.story-box {
+  text-align: center;
+  img {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+  }
+  h2 {
+    color: #7AC0CE;
+  }
+  p {
+    // margin-bottom: 50px;
+    margin: 0 8% 50px 8%;
+  }
+}
+.sophia p {
+  margin-bottom: 70px;
+}
+
+
+
+.featured-rooms-container {
+  text-align: center;
+  background: #F7C760;
+  margin-bottom: 0;
+
+   > h1 {
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-size: 35px;
+  }
+}
+.rooms-grid {
+  img {
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+  }
+}
+.featured-text-box {
+  background: white;
+  width: 60%;
+  height: 90px;
+  margin: auto;
+  text-align: left;
+  h4 {
+    font-weight: 900;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-top: 0;
+  }
+  p {
+    padding-left: 10px;
+    font-size: 15px;
+  }
+}
+
+.learn-more-button {
+  margin-top: 40px;
+  a {
+    padding: 4px 20px;
+    background: #35414E;
+  }
+}
+.footer-header {
+  position: relative;
+  height: 400px;
+  background: #35414E;
+  text-align: center;
+  margin: 0;
+  p {
+    color: white;
+    margin-top: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px 15px;
+
+  }
+}
+
+.google-icon {
+  img {
+  position: absolute;
+  width: 150px;
+  left: 37%;
+  }
+}
+
+
+// begin social icons
+
+.footer-icons {
+  position: absolute;
+  top: 160;
+  left: 37%;
+}
+
+.footer-face-icon,
+.footer-google-icon,
+.footer-twitter-icon {
+  font-size: 20px;
+  color: white;
+  padding-top: 8px;
+  vertical-align: top;
+}
+.footer-twitter-icon {
+  margin-top: 15px;
+}
+.hr-line-container {
+  height: 200px;
+  border-bottom: 1px solid white;
+  margin: 0 5%;
+}
+.copyright-container {
+  height: 100px;
+  margin-top: 30px;
+}
+.copyright-info {
+  height:100px;
+  width: 100%;
+  color: white;
+  margin-right: 4px;
+  margin-top: 10px;
+  font-size: 20px;
+  p{
+    font-size: 20px;
+    margin-top: 0;
+    word-spacing: -15;
+  }
+}
