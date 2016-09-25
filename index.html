@@ -1,0 +1,256 @@
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>08-CSS-Frameworks</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+      <link rel="stylesheet" href="./css/styles.css">
+   </head>
+   <body>
+      <div id="app-container">
+        <!--first jumbotron header-->
+        <div class="jumbotron text-center search-container">
+          <span class="glyphicon glyphicon-align-justify three-bars"></span>
+          <div class="reg-log-container">
+            <div class="register-box">
+              <a href"#"<h5 class="register-link reg-log-link">Register</h5></a>
+            </div>
+            <div class="log-in-box">
+              <a href"#"<h5 class="log-in-link reg-log-link">Log-in</h5></a>
+            </div>
+          </div>
+          <div class="roomme-logo">
+            <img src="images/room-me-logo-white.svg" alt="logo" />
+          </div>
+          <div class="container-fluid main-header-text">
+            <h1>Living Together Made Easy</h1>
+            <h3>Find your perfect roommate</h3>
+              <!-- first text input box-->
+            <div class="input-group input-container">
+              <input type="text" class="form-control" placeholder="Where are you searching?" aria-describedby="basic-addon2">
+              <span class="input-group-addon mag-glass-container" id="basic-addon2"><span class="glyphicon glyphicon-search mag-glass"></span></span>
+            </div><!--end of inpu group-->
+          </div><!--end of fluid container-->
+        </div><!--end of search container-->
+        <!-- second jumbotron Post Your Room-->
+        <div class="jumbotron room-for-rent">
+          <div class="room-rent-container">
+            <h2>Do you have a room for rent?</h2>
+            <p>With room.me it's easy to find roommates to match your personality.</p>
+            <p class="button-container"><a class="btn btn-primary btn-lg post-button" href="#" role="button">Post Your Room</a></p>
+            <div class="houses-pic"></div>
+          </div>
+        </div><!--end room-for-rent-->
+        <!-- begin Roommate finder header-->
+        <div class="finder-text">
+          <h1>Your Roommate Finder</h1>
+          <p><span>room.me</span> is here to make your life easier. We believe in living with the right people and we want you to be happy in your shared home. Find rooms for rent and roommates by using our smart matching algorithm and quickly connect with your perfect roommate.</p>
+        </div>
+        <!-- begin Roommate finder container with grid system-->
+        <div class="column-container">
+          <div class="row how-works-container">
+            <div class="col-xs-12 col-sm-2 col-md-2 img-container">
+              <img src="images/profile-guy-plus.svg" alt="profile guy" />
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2 text-box">
+              <h1>Create a Profile</h1>
+              <p>Tell us about yourself and answer matching questions in a few simple steps.</p>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2 img-container">
+              <img src="images/95-percent.svg" alt="95 percent" />
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2 text-box match-smarter">
+              <h1>Match Smarter</h1>
+              <p>See how good you match with your future roommates before meeting them in person.</p>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2 img-container">
+              <img src="images/move-in-keys.svg" alt="Keys" />
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2 text-box">
+              <h1>Move In</h1>
+              <p>Message with your best matches, move in and enjoy your new home.</p>
+            </div>
+          </div><!-- end Roommate finder container grid system-->
+          <div class="find-out-how-container">
+            <p class="find-out-how"><a href="#">Find out how it works</a></p>
+          </div>
+        <!-- </div> end Roommate finder container grid system-->
+        <!-- begin Recommend #roomdotme jumbotron-->
+        <div class="jumbotron text-center recommend-me">
+          <h1>Recommend #roomdotme</h1>
+          <h4>Do you know someone looking for or renting out a room? Tell them about us.</h4>
+          <h3>Share on</h3>
+          <!-- begin recommend-me social icons-->
+          <div class="recommend-me-icons">
+            <div class="icon-box face-book">
+              <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook face-icon" aria-hidden="true"></i></a>
+            </div>
+            <div class="icon-box google-plus">
+              <a href="https://plus.google.com" target="_blank"><i class="fa fa-google-plus google-icon" aria-hidden="true"></i></a>
+            </div>
+            <div class="icon-box twitter-oh">
+              <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter twitter-icon" aria-hidden="true"></i></a>
+            </div>
+          </div><!-- end recommend-me social icons-->
+          <!-- <div class="or-container"> -->
+          <p class="or-word">or</p>
+          <!-- </div> -->
+          <!-- second text input box-->
+          <div class="input-group roomdotcom-input">
+            <input type="text" class="form-control form-input input-area" placeholder="enter a friend's email address " aria-describedby="basic-addon2">
+            <span class="input-group-addon email-button" id="basic-addon2 "><a href="#"><span class="glyphicon glyphicon-send airplane-icon"></a></span></span>
+          </div><!-- end of second text input box-->
+        </div><!-- end of Recommend #roomdotme jumbotron-->
+        <!-- begin success story header-->
+        <div class="success-story-header">
+          <h1>Success Stories</h1>
+          <p>See how other roomies have found their perfect matches</p>
+        </div><!-- end success story header-->
+        <div class="success-story-container">
+          <div class="row story-column-container">
+            <div class="col-xs-12 col-md-4 story-box jasmine">
+              <img src="images/success-jasmine.png" alt="jasmine" />
+              <h2>Jasmine</h2>
+              <p>I trust room.me more than craigslist, for sure.</p>
+            </div><!--end jasmine-->
+            <div class="col-xs-12 col-md-4 story-box keyvan">
+              <img src="images/success-kevyan.png" alt="jasmine" />
+              <h2>Keyvan</h2>
+              <p>What makes room.me different is the criteria by which roommates are matched against.</p>
+            </div><!--end keyvan-->
+            <div class="col-xs-12 col-md-4 story-box sophia">
+              <img src="images/success-sophia.png" alt="jasmine" />
+              <h2>Sophia</h2>
+              <p>room.me is so easy to navigate and its questionaires are so helpful in finding the perfect match for me.</p>
+            </div><!--end sophia-->
+          </div><!-- end story-column-container-->
+        </div><!-- end success-story-container-->
+        <div class="jumbotron featured-rooms-container">
+          <h1>Featured Rooms</h1>
+          <div class="row rooms-container">
+            <div class="col-xs-12 col-sm-4 col-md-4 rooms-grid">
+              <a href="images/featured-01.jpg" target="_blank"><img src="images/featured-01.jpg" alt="featured room 1" /></a>
+              <div class="featured-text-box">
+                <h4>2 Bedroom available in a 3 br/2...</h4>
+                <p>$2,200 | Oct 1,2016</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 rooms-grid">
+              <a href="images/featured-02.jpg" target="_blank"><img src="images/featured-02.jpg" alt="featured room 1" /></a>
+              <div class="featured-text-box">
+                <h4>Looking for a great roomie - BH</h4>
+                <p>$1,200 | Nov 1,2016</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 rooms-grid">
+              <a href="images/featured-03.jpg" target="_blank"><img src="images/featured-03.jpg" alt="featured room 1" /></a>
+              <div class="featured-text-box">
+                <h4>Large Double Available!</h4>
+                <p>$1,000 | Sep 8,2016 - Jan 1,2017</p>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn-primary btn-lg learn-button" href="#" role="button"><p class="learn-more-button">See More Rooms</p></a>
+        </div><!-- end featured-rooms-container-->
+        <div class="footer-wrapper">
+          <div class="jumbotron footer-container">
+            <div class="row footer-links">
+              <div class="col-xs-12 phone-size">
+                <div class="footer-phone-container">
+                  <p class="foot-how-works">How it Works</p>
+                  <p class="foot-faq">FAQ</p>
+                  <p class="foot-blog">Blog</p>
+                  <p class="foot-imprint">Imprint</p>
+                </div>
+              </div>
+              <div class="col-xs-12 footer-google-plus">
+                <a href="https://play.google.com/store?hl=en"><img src="images/google-play.png" alt="google play" /></a>
+              </div>
+              <!-- begin social icons -->
+
+              <div class="col-xs-12 footer-social-container">
+                <div class="footer-social-icons">
+                  <div class="footer-twitter-box foot-icon-box">
+                    <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter twitter-icon" aria-hidden="true"></i></a>
+                  </div>
+                  <div class="footer-face-box foot-icon-box">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook face-icon" aria-hidden="true"></i></a>
+                  </div>
+                  <div class="footer-google-plus foot-icon-box">
+                    <a href="https://plus.google.com" target="_blank"><i class="fa fa-google-plus google-icon" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div><!-- end social icons-->
+              <div class="col-xs-12 footer-copyright">
+                <div class="footer-copyright-box-n-box">
+                  <div class="footer-copyright-logo">
+                    <i class="fa fa-copyright fa-2x" aria-hidden="true"></i>
+                  </div>
+                  <div class="footer-roome-info">
+                    <p class="footer-roome-info-box">2015 room.me</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- end of row-->
+          </div>
+        </div><!-- end footer-wrapper-->
+          <!-- begin tablet and desktop version of footer-->
+        <div class="footer2-wrapper">
+          <div class="jumbotron footer2-container">
+            <div class="row footer2-large-version">
+              <div class="col-sm-3 col-md-3 footer2-column1-container">
+                <div class="footer2-logo-box-n-box">
+                  <div class="footer2-roome-logo">
+                    <img src="images/room-me-logo-white.svg" alt="logo" />
+                  </div>
+                  <div class="footer2-copyright-container">
+                    <i class="fa fa-copyright fa-2x footer2-copyright" aria-hidden="true"></i>
+                    <p>2015 room.me</p>
+                  </div>
+                </div>
+              </div><!-- end of footer2-column1-container-->
+              <div class="col-sm-3 col-md-3 footer2-column2-container">
+                <ul>
+                  <li><h3><strong>Quick Links</strong></h3></li>
+                  <li>How it Works</li>
+                  <li>FAQ</li>
+                  <li>Blog</li>
+                  <li>Imprint</li>
+                </ul>
+              </div><!-- end of footer-column2-container-->
+              <div class="col-sm-3 col-md-3 footer2-column3-container">
+                <ul>
+                  <li><h3><strong>Rooms for Rent</strong></h3></li>
+                  <li>San Francisco</li>
+                  <li>Los Angeles</li>
+                  <li>San Jose</li>
+                  <li>Sacramento</li>
+                  <li>San Diego</li>
+                  <li>Boston</li>
+                </ul>
+              </div><!-- end of footer2-column3-container-->
+              <div class="col-sm-3 col-md-3 footer2-column4-container">
+                <div class="footer2-column4-box-n-box">
+                  <h3 class="footer2-download"><strong>Download the App</strong></h3>
+                  <a href="https://play.google.com/store?hl=en"><img src="images/google-play.png" alt="google play" /></a>
+                  <h3 class="follow-us">Follow Us</h3>
+                  <div class="footer2-social-icons">
+                    <div class="footer2-twitter-box foot2-icon-box">
+                      <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter twitter-icon" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="footer2-face-box foot2-icon-box">
+                      <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook face-icon" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="footer2-google-plus foot2-icon-box">
+                      <a href="https://plus.google.com" target="_blank"><i class="fa fa-google-plus google-icon" aria-hidden="true"></i></a>
+                    </div>
+                  </div><!-- end foot2 social icons-->
+                </div>
+              </div>
+            </div><!-- end of row-->
+        </div><!-- end footer2 wrapper-->
+      </div><!-- end of app-container-->
+   </body>
+</html>
