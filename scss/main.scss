@@ -99,11 +99,11 @@ position: relative;
 }
 .houses-pic {
 position: absolute;
-  width: 20%;
-  height:240px;
+  width: 30%;
+  height:190px;
   background: url("../images/buildings-yellow-green.svg") center center no-repeat;
   background-size: cover;
-  top: 10;
+  top: 160;
   right: 0;
 }
 .room-rent-container {
@@ -531,6 +531,12 @@ vertical-align: top;
     padding-bottom: 0;
     height: 250px;
   }
+  .houses-pic {
+    height: 170px;
+    width: 20%;
+    top: 80;
+    right: 0;
+  }
   .recommend-me {
     position: relative;
     height: 400px;
@@ -684,5 +690,11 @@ vertical-align: top;
     img {
       width: 150px;
     }
+  }
+  .houses-pic {
+    height: 200px;
+    width: 20%;
+    top: 50;
+    right: 0;
   }
 }
